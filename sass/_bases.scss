@@ -1,0 +1,13 @@
+//estilos generales
+*{
+	font-family:$body_font;
+}
+
+.navbar-nav{
+	li:hover{
+		background-color:$background_uno;
+		a:hover{
+			color:$color_text_titulo;
+		}
+	}
+}
