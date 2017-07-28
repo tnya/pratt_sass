@@ -5805,4 +5805,36 @@ button.close {
   .navbar-nav li:hover a:hover {
     color: #fff; }
 
+.seccion_uno {
+  background-color: #33485c;
+  padding-top: 6%; }
+  .seccion_uno h1, .seccion_uno h3 {
+    color: #fff;
+    text-align: center; }
+
+.seccion_dos {
+  background-color: #f7f7f7;
+  padding: 2%;
+  color: #989998;
+  text-align: center;
+  line-height: 30px; }
+
+.seccion_tres {
+  background-color: #f7f7f7;
+  padding: 2%; }
+  .seccion_tres .desktop {
+    width: 100%;
+    padding: 6%; }
+  .seccion_tres h1, .seccion_tres h2, .seccion_tres h4 {
+    text-align: center; }
+  .seccion_tres p {
+    color: #989998;
+    text-align: center;
+    line-height: 30px; }
+
+@media (max-width: 600px) {
+  .seccion_uno {
+    background-color: #33485c;
+    padding-top: 11%; } }
+
 /*# sourceMappingURL=main.css.map */
